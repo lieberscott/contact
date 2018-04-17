@@ -1,0 +1,184 @@
+$lightgray: #f1f1f1;
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+footer {
+  background-color: white;
+  min-width: 270px;
+  text-align: center;
+  margin-top: 390px;
+  padding-top: 10px;
+}
+
+form {
+  position: absolute;
+  top: 160px;
+  right: 55%;
+  overflow: hidden;
+  visibility: visible;
+  width: 360px;
+  -webkit-animation: fadeleft 2s, slideleft 2s;
+}
+
+@-webkit-keyframes fadeleft {
+  0%{opacity:0;}
+  100%{opacity: 1;}
+}
+
+@-webkit-keyframes slideleft {
+  0%{right:60%;}
+  100%{right: 55%;}
+}
+
+h1 {
+  border-bottom: 1px solid white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.btn-dark {
+  width: 100%;
+}
+
+.info {
+  position: absolute;
+  top: 160px;
+  left: 55%;
+  width: 280px;
+  visibility: visible;
+  width: 360px;
+  -webkit-animation: faderight 2s, slideright 2s;
+}
+
+@-webkit-keyframes faderight {
+  0%{opacity:0;}
+  100%{opacity: 1;}
+}
+
+@-webkit-keyframes slideright {
+  0%{left:60%;}
+  100%{left: 55%;}
+}
+
+.media {
+  background-color: navy;
+  border-radius: 3px;
+  display: block;
+  margin: 0 auto;
+  padding: 5px 0px;
+  text-align: center;
+}
+
+.mediawrapper {
+  text-align: center;
+}
+
+.media a {
+  color: white;
+  margin: 0px 10px;
+  text-decoration: none;
+}
+
+.name {
+  font-size: 24px;
+}
+
+.navbar {
+  background-color: white;
+  min-width: 215px;
+}
+
+.nav-item {
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.phone {
+  font-size: 12px;
+}
+
+.shorterone {
+  width: 90%;
+}
+
+.subhead {
+  font-size: 18px;
+}
+
+#main {
+  min-width: 300px;
+  margin: 55px auto 15px auto;
+  height: 100%;
+}
+
+
+@media(max-width: 800px) {
+  
+  footer {
+    margin-top: 10px;
+  }
+  
+  form {
+    position: relative;
+    top: 0px;
+    right: 0;
+    width: 90%;
+    max-width: 400px;
+    min-width: 270px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    visibility: visible;
+    -webkit-animation: none;
+  }
+  
+  .actualtext {
+    margin: 20px auto 0px auto;
+    text-align: center;
+  }
+  
+  .center {
+    height: auto;
+    min-width: 300px;
+    padding-bottom: 20px;
+  }
+  
+  .info {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+    max-width: 400px;
+    min-width: 270px;
+    height: auto;
+    -webkit-animation: none;
+  }
+  
+  .media {
+    width: 100%;
+    min-width: 300px;
+  }
+  
+  .media a {
+    margin: 0 30px;
+  }
+  
+  .nav-item {
+    margin: 0;
+  }
+  
+  .picimg {
+    height: auto;
+    width: 100%;
+  }
+  
+  #main {
+    min-width: 300px;
+  }
+  
+}
