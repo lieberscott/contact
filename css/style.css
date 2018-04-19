@@ -140,20 +140,6 @@ textarea {
     margin-top: 10px;
   }
 
-  form {
-    position: relative;
-    top: 0px;
-    right: 0;
-    width: 90%;
-    max-width: 400px;
-    min-width: 270px;
-    height: auto;
-    margin: 0 auto;
-    overflow: hidden;
-    visibility: visible;
-    -webkit-animation: none;
-  }
-
   .actualtext {
     margin: 20px auto 0px auto;
     text-align: center;
@@ -178,6 +164,20 @@ textarea {
     -webkit-animation: none;
   }
 
+  .leftcontainer {
+    position: relative;
+    top: 0px;
+    right: 0;
+    width: 90%;
+    max-width: 400px;
+    min-width: 270px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    visibility: visible;
+    -webkit-animation: none;
+  }
+  
   .media {
     width: 100%;
     min-width: 300px;
