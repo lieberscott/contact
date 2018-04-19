@@ -11,35 +11,18 @@ footer {
 }
 
 form {
-  position: absolute;
-  top: 160px;
-  right: 55%;
-  overflow: hidden;
-  visibility: visible;
-  width: 360px;
-  -webkit-animation: fadeleft 2s, slideleft 2s;
+  margin: 2px auto;
+  width: 98%;
 }
 
-@-webkit-keyframes fadeleft {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@-webkit-keyframes slideleft {
-  0% {
-    right: 60%;
-  }
-  100% {
-    right: 55%;
-  }
-}
 h1 {
   border-bottom: 1px solid white;
   text-align: center;
   margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
 }
 
 .btn-dark {
@@ -72,6 +55,34 @@ h1 {
     left: 55%;
   }
 }
+
+.leftcontainer {
+  position: absolute;
+  top: 160px;
+  right: 55%;
+  overflow: hidden;
+  visibility: visible;
+  width: 360px;
+  -webkit-animation: fadeleft 2s, slideleft 2s;
+}
+
+@-webkit-keyframes fadeleft {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes slideleft {
+  0% {
+    right: 60%;
+  }
+  100% {
+    right: 55%;
+  }
+}
+
 .media {
   background-color: navy;
   border-radius: 3px;
